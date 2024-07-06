@@ -3,6 +3,8 @@
 ## Description
 The Tennis Analysis System utilizes computer vision and machine learning to analyze tennis match footage. Given a television view video clip of a tennis rally, this system provides detailed analysis including player and ball detection with bounding boxes and key-court points as well, overlay of a mini-court displaying player and ball positions, calculation of player and ball speeds adjusted for frame rate, statistics on shots played by each player, and generation of heatmaps based on player movements.
 
+![Demo Video](https://raw.githubusercontent.com/username/repository/branch/path/to/your/video.mp4)
+
 ## Features
 - Player and Ball Detection: Detects players and the tennis ball in each frame of the input video, overlaying bounding boxes for visualization.
 - Key-Court Points and Mini-Court and players and ball speed Overlay: Identifies key points on the tennis court (baseline, service lines, etc.) and overlays a 
