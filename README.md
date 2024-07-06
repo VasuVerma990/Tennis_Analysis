@@ -21,7 +21,19 @@ https://github.com/VasuVerma990/Tennis_Analysis/assets/131004786/a2c55ae8-e154-4
 - pandas
 - numpy
 - opencv
-
+## Direction of Use
+- Setting Up the Video Path:
+   - In the main.py file, specify the path to the video you want to analyze.
+   - Ensure the directory structure allows for function calls and data storage.
+- Running the Analysis:
+   - When you run the main.py file for the first time, it will generate pickle files for player detection, ball detection, and key-court points.
+   - These pickle files will be saved and can be reused for the same video without needing to run the entire analysis again.
+- Reusing Pickle Files:
+   - To reuse the generated pickle files, ensure they are in the appropriate directory.
+   - The pickle files can also be used in the ball_analysis.ipynb and player_analysis.ipynb notebooks for further analysis, such as shot counts, ball hits           surface (under assumptions i.e., difference between the player hit the ball and the surface is 30 frames), and player heatmap generation.
+- Tweaking Key-Court Points:
+   - If the correct players are not detected, you may need to tweak the key-court points to be nearest to the players.
+   - Adjustments can be made in the respective functions within the code to improve detection accuracy.
 ## Models Used
 - YOLO v8 for player detection
 - Fine Tuned YOLO v8x for tennis ball detection
